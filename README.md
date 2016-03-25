@@ -1,16 +1,15 @@
 # webpack-clean-plugin
 A Webpack plugin for removing files and folders.
 
-[![Build Status][travis-image]][travis-url]
 
 ## Installation
 ``
 npm install webpack-clean-plugin --save-dev
 ``
 
-## Example Webpack Config
 
-`` javascript
+## Example Webpack Config
+``` javascript
 var WebpackCleanPlugin = require('webpack-clean-plugin');
 
 module.exports = {
@@ -23,15 +22,17 @@ module.exports = {
 }
 ```
 
-#####on
+
+##### on
 One of Webpack build steps. Such as `emit` `compilce` and so on.
-``javascript
+```javascript
 emit
 ```
 
-#####path
+
+##### path
 The Array of file and dictory or just a string.
-``javascript
+```javascript
 ['./static', './build'] or './build'
 ```
 
