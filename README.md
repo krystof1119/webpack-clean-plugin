@@ -36,3 +36,6 @@ The Array of file and dictory or just a string.
 ['./static', './build'] or './build'
 ```
 
+
+## License
+https://opensource.org/licenses/mit-license.php

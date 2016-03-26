@@ -1,6 +1,6 @@
 {
   "name": "webpack-clean-plugin",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "A Webpack plugin for removing files and folders.",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github_banama/banama/wepack-clean-plugin"
+    "url": "https://github.com/banama/webpack-clean-plugin"
   },
   "keywords": [
     "webpack"
   ],
   "author": "banama",
-  "license": "ISC"
+  "license": "MIT"
 }
