@@ -14,7 +14,7 @@ function deleteFs(path){
                 ? stat.forEach(function(file) {
                     deleteFs(path + "/" + file)
                 })
-                : fs.rmdir(path)
+                : fs.rmdirSync(path)
             }
             else if(fs.statSync(path).isFile()) {
                 fs.unlinkSync(path)
